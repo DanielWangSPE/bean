@@ -1,4 +1,4 @@
-package com.wz.swing;
+package com.wz.test.swing;
 
 import javax.swing.JFrame;
 import javax.swing.JInternalFrame;
