@@ -1,4 +1,4 @@
-package com.wz.tools;
+package com.wz.common.tools;
 /** 
 * 
 * @author : wangzhi

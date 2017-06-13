@@ -1,13 +1,17 @@
-package com.wz.my_tank_war;
+package com.wz.project.games.my_tank_war;
 
-import java.sql.Time;
+public class MyTank extends Tank{
 
-public class EnemyTank extends Tank{
-	int speed=2;
-
-	public EnemyTank(int x, int y, int direction) {
-		super(x, y, direction);
+	public MyTank(int x, int y) {
+		super(x, y);
 	}
+	public MyTank(int x, int y, int direction) {
+		super(x, y, direction);
+		this.x = x;
+		this.y = y;
+		this.direction = direction;
+	}
+
 
 	public void move(int direction) {
 		this.direction=direction;
@@ -34,7 +38,7 @@ public class EnemyTank extends Tank{
 			break;
 		}
 	}
-	
+
 	public void fireBullets() {
 		if (this.life) {
 			switch(this.direction){
@@ -61,34 +65,10 @@ public class EnemyTank extends Tank{
 		}
 
 	}
-	
-	
-	
+
 	public void run() {
 		super.run();
-		while (true) {
-			int times=10;
-			for (int i = 0; i < 30; i++) {
-				this.move(direction);
-				try {
-					Thread.sleep(50);
-				} catch (InterruptedException e) {
-					e.printStackTrace();
-				}
-			}
-			this.direction=(int)(Math.random()*4);//�������̹�˵����з��򣬳���0-3
-			
-			if (times%2==0) {
-				if (bullets.size()<5) {
-					this.fireBullets();
-				}
-				
-				times-=2;
-			}
-			if (this.life==false) {
-				break;
-			}
-		}
+
 	}
-	
+
 }

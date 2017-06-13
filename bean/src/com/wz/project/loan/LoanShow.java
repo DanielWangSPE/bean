@@ -1,6 +1,6 @@
-package com.wz.loan;
+package com.wz.project.loan;
 
-import com.wz.tools.LoanUtils;
+import com.wz.common.tools.LoanUtils;
 
 /** 
 * 

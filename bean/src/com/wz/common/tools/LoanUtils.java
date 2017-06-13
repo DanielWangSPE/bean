@@ -1,4 +1,4 @@
-package com.wz.tools;
+package com.wz.common.tools;
 
 /** 
 * 计算贷款的工具类

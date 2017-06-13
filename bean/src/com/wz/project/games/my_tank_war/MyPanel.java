@@ -1,4 +1,4 @@
-package com.wz.my_tank_war;
+package com.wz.project.games.my_tank_war;
 
 import java.awt.*;
 import java.awt.event.*;

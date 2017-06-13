@@ -1,4 +1,4 @@
-package com.wz.my_tank_war;
+package com.wz.project.games.my_tank_war;
 
 public class Bullet implements Runnable{
 	boolean life=true;

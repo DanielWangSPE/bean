@@ -1,4 +1,4 @@
-package com.wz.games;
+package com.wz.project.games.zhajinhua;
 
 import java.util.Scanner;
 

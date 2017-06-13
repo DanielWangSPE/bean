@@ -1,4 +1,4 @@
-package com.wz.mode;
+package com.wz.test.mode;
 /** 
 * 单例模式演示
 * @author : wangzhi
